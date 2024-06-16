@@ -17,26 +17,16 @@ import org.slf4j.Logger;
 @Mod(SpaceCraft.MOD_ID)
 public class SpaceCraft
 {
-    // Define mod id in a common place for everything to reference
+
     public static final String MOD_ID = "spacecraft";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public SpaceCraft()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
-        // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
-        // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-
-        // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
-
-        // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
-
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
@@ -44,7 +34,6 @@ public class SpaceCraft
 
     }
 
-    // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
 
