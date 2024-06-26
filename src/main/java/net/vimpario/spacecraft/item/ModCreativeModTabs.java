@@ -14,11 +14,11 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SpaceCraft.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> SPACECRAFT_TAB = CREATIVE_MODE_TABS.register("spacecraft_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RAW_ALUMINIUM.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ALUMINIUM.get()))
                     .title(Component.translatable("creativetab.spacecraft_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ALUMINIUM.get());
-                        output.accept(ModItems.RAW_ALUMINIUM.get());
+
                         output.accept(Items.ACACIA_LOG);
                         output.accept(Items.GLOW_ITEM_FRAME);
                     })
