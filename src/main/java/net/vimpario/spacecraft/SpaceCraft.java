@@ -55,6 +55,10 @@ public class SpaceCraft
             event.accept(ModItems.WOLFRAMIUM);
 
         }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.ALUMINIUM_BLOCK);
+        }
     }
 
 

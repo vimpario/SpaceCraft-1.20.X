@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.vimpario.spacecraft.SpaceCraft;
+import net.vimpario.spacecraft.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SpaceCraft.MOD_ID);
@@ -22,6 +23,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.CHROMIUM.get());
                         output.accept(ModItems.CUPRUM.get());
                         output.accept(ModItems.WOLFRAMIUM.get());
+                        output.accept(ModBlocks.ALUMINIUM_BLOCK.get());
                     })
                     .build() );
 
