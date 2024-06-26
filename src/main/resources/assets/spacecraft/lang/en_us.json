@@ -1,6 +1,10 @@
 {
-  "item.spacecraft.aluminium": "Aluminium",
+  "creativetab.spacecraft_tab" : "Aluminium Spacecraft Tab",
+  "item.spacecraft.aluminium" : "Aluminium",
+  "item.spacecraft.cuprum" : "Cuprum",
+  "item.spacecraft.ferrum" : "Ferrum",
+  "item.spacecraft.wolframium" : "Wolframium",
+  "item.spacecraft.chromium" : "Chromium"
 
 
-  "creativetab.spacecraft_tab" : "Aluminium Spacecraft Tab"
 }

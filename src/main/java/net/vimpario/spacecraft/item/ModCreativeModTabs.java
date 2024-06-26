@@ -18,9 +18,10 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.spacecraft_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ALUMINIUM.get());
-
-                        output.accept(Items.ACACIA_LOG);
-                        output.accept(Items.GLOW_ITEM_FRAME);
+                        output.accept(ModItems.FERRUM.get());
+                        output.accept(ModItems.CHROMIUM.get());
+                        output.accept(ModItems.CUPRUM.get());
+                        output.accept(ModItems.WOLFRAMIUM.get());
                     })
                     .build() );
 

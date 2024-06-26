@@ -13,6 +13,18 @@ public class ModItems {
     public static final RegistryObject<Item> ALUMINIUM = ITEMS.register("aluminium",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CUPRUM = ITEMS.register("cuprum",
+            () -> new Item((new Item.Properties())));
+
+    public static final RegistryObject<Item> FERRUM = ITEMS.register("ferrum",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> WOLFRAMIUM = ITEMS.register("wolframium",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CHROMIUM = ITEMS.register("chromium",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
