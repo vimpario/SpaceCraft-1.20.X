@@ -8,7 +8,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.vimpario.spacecraft.SpaceCraft;
 
 public class ModItems {
-    public  static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SpaceCraft.MOD_ID);
+    public  static final DeferredRegister<Item> ITEMS =
+            DeferredRegister.create(ForgeRegistries.ITEMS, SpaceCraft.MOD_ID);
 
     public static final RegistryObject<Item> ALUMINIUM = ITEMS.register("aluminium",
             () -> new Item(new Item.Properties()));
