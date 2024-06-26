@@ -43,6 +43,7 @@ public class SpaceCraft
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.ALUMINIUM);
+            event.accept(ModItems.RAW_ALUMINIUM);
         }
     }
 
