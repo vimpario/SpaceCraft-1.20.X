@@ -4,7 +4,7 @@
   "item.spacecraft.cuprum" : "Cuprum",
   "item.spacecraft.ferrum" : "Ferrum",
   "item.spacecraft.wolframium" : "Wolframium",
-  "item.spacecraft.chromium" : "Chromium"
+  "item.spacecraft.chromium" : "Chromium",
 
-
+  "block.spacecraft.aluminium_block" : "Block of alumiinium ore"
 }
