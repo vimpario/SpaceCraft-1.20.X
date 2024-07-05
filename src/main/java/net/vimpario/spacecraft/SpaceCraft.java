@@ -58,6 +58,10 @@ public class SpaceCraft
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.ALUMINIUM_BLOCK);
+            event.accept(ModBlocks.CHROMIUM_BLOCK);
+            event.accept(ModBlocks.CUPRUM_BLOCK);
+            event.accept(ModBlocks.FERRUM_BLOCK);
+            event.accept(ModBlocks.WOLFRAMIUM_BLOCK);
         }
     }
 

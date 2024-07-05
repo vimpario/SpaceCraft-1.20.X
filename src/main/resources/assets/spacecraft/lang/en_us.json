@@ -1,10 +1,15 @@
 {
   "creativetab.spacecraft_tab" : "Aluminium Spacecraft Tab",
+
   "item.spacecraft.aluminium" : "Aluminium",
   "item.spacecraft.cuprum" : "Cuprum",
   "item.spacecraft.ferrum" : "Ferrum",
   "item.spacecraft.wolframium" : "Wolframium",
   "item.spacecraft.chromium" : "Chromium",
 
-  "block.spacecraft.aluminium_block" : "Block of alumiinium ore"
+  "block.spacecraft.aluminium_block" : "Block of aluminium ore",
+  "block.spacecraft.cuprum_block" : "Block of cuprum ore",
+  "block.spacecraft.ferrum_block" : "Block of ferrum ore",
+  "block.spcecraft.wolframium_block" : "Block of wolframium ore",
+  "block.spacecraft.chromium_block" : "Block of chromium ore"
 }

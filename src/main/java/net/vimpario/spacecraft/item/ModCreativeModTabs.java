@@ -23,7 +23,12 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.CHROMIUM.get());
                         output.accept(ModItems.CUPRUM.get());
                         output.accept(ModItems.WOLFRAMIUM.get());
+
                         output.accept(ModBlocks.ALUMINIUM_BLOCK.get());
+                        output.accept(ModBlocks.CHROMIUM_BLOCK.get());
+                        output.accept(ModBlocks.CUPRUM_BLOCK.get());
+                        output.accept(ModBlocks.FERRUM_BLOCK.get());
+                        output.accept(ModBlocks.WOLFRAMIUM_BLOCK.get());
                     })
                     .build() );
 
